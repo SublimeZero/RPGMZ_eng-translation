@@ -1,85 +1,71 @@
-[クラスツリー](index.md)
+[Class Tree](index.md)
 
-# クラス: Game_Item
+# Class: Game_Item
 
-| データベース| JSONデータ |
+| Database | JSON Data |
 | --- | --- |
-| [アイテム][武器][防具][スキル] | [RPG.BaseItem](RPG.BaseItem.md)  |
+| [Item][Weapon][Armor][Skill] | [RPG.BaseItem](RPG.BaseItem.md)  |
 
-アイテム全般とスキルをまとめて扱うクラス。
+A class that handles items and skills in general.
 
-
-関連クラス: [RPG.UsableItem](RPG.UsableItem.md), [RPG.Item](RPG.Item.md), [RPG.Skill](RPG.Skill.md), [RPG.EquipItem](RPG.EquipItem.md), [RPG.Weapon](RPG.Weapon.md), [RPG.Armor](RPG.Armor.md), [Game_Actor](Game_Actor.md), [Game_Action](Game_Action.md)
+Related Classes: [RPG.UsableItem](RPG.UsableItem.md), [RPG.Item](RPG.Item.md), [RPG.Skill](RPG.Skill.md), [RPG.EquipItem](RPG.EquipItem.md), [RPG.Weapon](RPG.Weapon.md), [RPG.Armor](RPG.Armor.md), [Game_Actor](Game_Actor.md), [Game_Action](Game_Action.md)
 
 ### new Game_Item ()
 
-### プロパティ
+### Properties
 
-| 識別子 | 型 | 説明 |
+| Identifier | Type | Description |
 | --- | --- | --- |
-| `_dataClass` | [String](String.md) | アイテムの種類( 'item', 'skill', 'weapon', 'armor', '' ) |
-| `_itemId` | [Number](Number.md) | アイテムID(種類毎に異なる) |
+| `_dataClass` | [String](String.md) | Type of item ('item', 'skill', 'weapon', 'armor', '') |
+| `_itemId` | [Number](Number.md) | Item ID (varies by type) |
 
-
-### メソッド
+### Methods
 
 #### initialize ()
- オブジェクト生成時の初期化。
-
+ Initializes upon object creation.
 
 #### isArmor () → {Boolean}
-防具か。
-
+ Checks if it is armor.
 
 #### isEquipItem () → {Boolean}
-装備品か。
-
+ Checks if it is an equipment item.
 
 #### isItem () → {Boolean}
-アイテムか。
-
+ Checks if it is an item.
 
 #### isNull () → {Boolean}
-未設定か。
-
+ Checks if it is unset.
 
 #### isSkill () → {Boolean}
-スキルか。
-
+ Checks if it is a skill.
 
 #### isUsableItem () → {Boolean}
-使用できるアイテムか。
-
+ Checks if it is a usable item.
 
 #### isWeapon () → {Boolean}
-武器か。
-
+ Checks if it is a weapon.
 
 #### itemId () → {[Number](Number.md)}
-アイテムIDを返す。
-
+ Returns the item ID.
 
 #### object () → {[RPG.BaseItem](RPG.BaseItem.md)}
-JSONデータを返す。
-
+ Returns the JSON data.
 
 #### setEquip (isWeapon, itemId)
-指定アイテムで装備品の設定。
+ Sets the equipment with the specified item.
 
-##### 引数
+##### Arguments
 
-| 名前 | 型 | 説明 |
+| Name | Type | Description |
 | --- | --- | --- |
-| `isWeapon` | Boolean | 武器か |
-| `itemId` | [Number](Number.md) | アイテムID |
-
+| `isWeapon` | Boolean | Is it a weapon? |
+| `itemId` | [Number](Number.md) | Item ID |
 
 #### setObject (item)
-指定JSONデータで書き換える。
+ Overwrites with the specified JSON data.
 
-##### 引数
+##### Arguments
 
-| 名前 | 型 | 説明 |
+| Name | Type | Description |
 | --- | --- | --- |
-| `item` | [RPG.BaseItem](RPG.BaseItem.md) | アイテム |
-
+| `item` | [RPG.BaseItem](RPG.BaseItem.md) | Item |
