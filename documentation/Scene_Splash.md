@@ -24,6 +24,45 @@ Related Scenes: [Scene_Boot](Scene_Boot.md), [Scene_Title](Scene_Title.md)
 | `_backSprite` | [Sprite](Sprite.md) | Background image |
 | `_waitCount` | [Number](Number.md) | Splash display time (frames) |
 
+### Methods
+
+#### adjustBackground ()
+Adjusts the background.
+
+#### checkSkip ()
+If a skip operation is detected, set the display time to 0.
+
+#### create ()
+Override: [Scene_File](Scene_Base.md#create-)
+
+#### createBackground ()
+Generates the splash screen background.
+
+#### gotoTitle ()
+Transition to the title ([Scene_Title](Scene_Title.md)).
+
+#### initialize ()
+Override: [Scene_Base](Scene_Base.md#initialize-)
+
+#### initWaitCount ()
+Initialize the splash screen display time (fixed at 120).
+
+#### isEnabled () → {Boolean}
+Checks if it can be executed.
+
+#### start ()
+Override: [Scene_Base](Scene_Base.md#start-)
+
+#### stop ()
+Override: [Scene_Base](Scene_Base.md#stop-)
+
+#### update ()
+Override: [Scene_Base](Scene_Base.md#update-)
+
+#### updateWaitCount () → {Boolean}
+Decreases the display time by one and returns whether there is remaining time.
+
+
 
 ### Methods Inherited from Superclass
 
@@ -100,41 +139,3 @@ Related Scenes: [Scene_Boot](Scene_Boot.md), [Scene_Title](Scene_Title.md)
 * [updateChildren ()](Scene_Base.md#updatechildren-)
 * [updateColorFilter ()](Scene_Base.md#updatecolorfilter-)
 * [updateFade ()](Scene_Base.md#updatefade-)
-
-### Methods
-
-#### adjustBackground ()
-Adjusts the background.
-
-#### checkSkip ()
-If a skip operation is detected, set the display time to 0.
-
-#### create ()
-Override: [Scene_File](Scene_Base.md#create-)
-
-#### createBackground ()
-Generates the splash screen background.
-
-#### gotoTitle ()
-Transition to the title ([Scene_Title](Scene_Title.md)).
-
-#### initialize ()
-Override: [Scene_Base](Scene_Base.md#initialize-)
-
-#### initWaitCount ()
-Initialize the splash screen display time (fixed at 120).
-
-#### isEnabled () → {Boolean}
-Checks if it can be executed.
-
-#### start ()
-Override: [Scene_Base](Scene_Base.md#start-)
-
-#### stop ()
-Override: [Scene_Base](Scene_Base.md#stop-)
-
-#### update ()
-Override: [Scene_Base](Scene_Base.md#update-)
-
-#### updateWaitCount () → {Boolean}
-Decreases the display time by one and returns whether there is remaining time.
