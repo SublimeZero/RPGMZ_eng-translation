@@ -8,7 +8,6 @@ A window for selecting actors during battle.
 
 Related Class: [Scene_Battle](Scene_Battle.md)
 
-
 ### new Window_BattleActor (rect)
 #### Arguments
 In MV, the arguments were x and y.
@@ -17,6 +16,16 @@ In MV, the arguments were x and y.
 | --- | --- | --- |
 | `rect` | [Rectangle](Rectangle.md) | Rectangle area (in pixels) |
 
+# Inheritance Tree
+
+- **Window_BattleActor**
+  - **Window_BattleStatus**
+    - Window_StatusBase
+    - Window_Selectable
+    - Window_Scrollable
+    - Window_Base
+    - PIXI.Container
+    - PIXI.DisplayObject
 
 
 ### Methods Inherited from Superclass
