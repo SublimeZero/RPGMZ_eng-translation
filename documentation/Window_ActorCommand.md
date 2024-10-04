@@ -22,6 +22,17 @@ In MV, there were no arguments.
 | ---------- | -------------------- | ---------------- |
 | `_actor`   | [Game_Actor](Game_Actor.md) | The actor       |
 
+---
+
+- [**Window_ActorCommand**]
+  - [**Window_Command**](Window.md)
+    - [**Window_Selectable**](Window_Selectable.md)
+      - [**Window_Base**](Window_Base.md)
+        - [**Window**](Window.md)
+          - [PIXI.Container](PIXI.Container.md)
+          - [PIXI.DisplayObject](PIXI.DisplayObject.md)
+---
+
 ### Methods Inherited from Superclass
 
 #### [PIXI.DisplayObject](PIXI.DisplayObject.md)
