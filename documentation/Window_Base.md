@@ -55,9 +55,9 @@ In MV, the arguments were x, y, width, and height.
 # Inheritance Tree
 
 - [**Window_Base**]
-  - [**Window**](Window.md)
+  - [Window](Window.md)
     - [PIXI.Container](PIXI.Container.md)
-    - [PIXI.DisplayObject](PIXI.DisplayObject.md)
+      - [PIXI.DisplayObject](PIXI.DisplayObject.md)
 
 ---
 
