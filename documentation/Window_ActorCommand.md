@@ -30,7 +30,7 @@ In MV, there were no arguments.
       - [**Window_Base**](Window_Base.md)
         - [**Window**](Window.md)
           - [PIXI.Container](PIXI.Container.md)
-          - [PIXI.DisplayObject](PIXI.DisplayObject.md)
+            - [PIXI.DisplayObject](PIXI.DisplayObject.md)
 ---
 
 ### Methods Inherited from Superclass
