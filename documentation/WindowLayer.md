@@ -17,6 +17,16 @@ In MV, many features that were processed here, such as filter functions, have mo
 ### Deprecated MV Properties
 `voidFilter`, `filterArea`, `filters`, `_width`, `_height`, `_tempCanvas`, `_translationMatrix`, `_windowMask`, `_windowRect`
 
+---
+
+# Inheritance Tree
+
+- [**Window_Layer**]
+  - [**PIXI.Container**](PIXI.Container.md)
+    - [PIXI.DisplayObject](PIXI.DisplayObject.md)
+
+---
+
 ### Methods Inherited from Superclass
 
 #### [PIXI.DisplayObject](PIXI.DisplayObject.md)
