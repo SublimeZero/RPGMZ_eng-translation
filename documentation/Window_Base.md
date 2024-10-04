@@ -52,6 +52,15 @@ In MV, the arguments were x, y, width, and height.
 
 ---
 
+# Inheritance Tree
+
+- [**Window_Base**]
+  - [**Window**](Window.md)
+    - [PIXI.Container](PIXI.Container.md)
+    - [PIXI.DisplayObject](PIXI.DisplayObject.md)
+
+---
+
 ### Methods Inherited from Superclass
 
 #### [PIXI.DisplayObject](PIXI.DisplayObject.md)
