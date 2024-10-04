@@ -90,6 +90,16 @@ Related classes: [Graphics](Graphics.md), [Scene_Base](Scene_Base.md)
 ### Deprecated MV Properties
 In MZ, similar properties have been adopted in a way that omits "window".
 
+---
+
+# Inheritance Tree
+
+- [**Window**]
+  - [**PIXI.Container**](PIXI.Container.md)
+    - [PIXI.DisplayObject](PIXI.DisplayObject.md)
+
+---
+
 #### [PIXI.DisplayObject](PIXI.DisplayObject.md)
 
 * [(static) mixin (source)](PIXI.DisplayObject.md#static-mixin-source)
