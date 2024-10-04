@@ -16,17 +16,21 @@ In MV, the arguments were x and y.
 | --- | --- | --- |
 | `rect` | [Rectangle](Rectangle.md) | Rectangle area (in pixels) |
 
+---
+
 # Inheritance Tree
 
-- **Window_BattleActor**
-  - **Window_BattleStatus**
-    - Window_StatusBase
-    - Window_Selectable
-    - Window_Scrollable
-    - Window_Base
-    - PIXI.Container
-    - PIXI.DisplayObject
+- [**Window_BattleActor**]
+  - [**Window_BattleStatus**](Window_BattleStatus.md)
+    - [Window_StatusBase](Window_StatusBase.md)
+      - [Window_Selectable](Window_Selectable.md)
+        - [Window_Scrollable](Window_Scrollable.md)
+          - [Window_Base](Window_Base.md)
+            - [Window](Window.md)
+              - [PIXI.Container](PIXI.Container.md)
+                - [PIXI.DisplayObject](PIXI.DisplayObject.md)
 
+---
 
 ### Methods Inherited from Superclass
 
