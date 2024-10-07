@@ -1,5 +1,3 @@
----
-
 # Class: Window_DebugRange
 
 ## Extends: [Window_Selectable](Window_Selectable.md)
