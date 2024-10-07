@@ -30,13 +30,14 @@ In MV, the parameters were x, y, width.
 # Inheritance Tree
 
 - [**Window_EquipCommand**]
-  - [Window_Command](Window_Command.md)
-    - [Window_Selectable](Window_Selectable.md)
-      - [Window_Scrollable](Window_Scrollable.md)
-        - [Window_Base](Window_Base.md)
-          - [Window](Window.md)
-            - [PIXI.Container](PIXI.Container.md)
-              - [PIXI.DisplayObject](PIXI.DisplayObject.md)
+  - [Window_HorzCommand](Window_HorzCommand.md)
+    - [Window_Command](Window_Command.md)
+      - [Window_Selectable](Window_Selectable.md)
+        - [Window_Scrollable](Window_Scrollable.md)
+          - [Window_Base](Window_Base.md)
+            - [Window](Window.md)
+              - [PIXI.Container](PIXI.Container.md)
+                - [PIXI.DisplayObject](PIXI.DisplayObject.md)
 
 ---
 
