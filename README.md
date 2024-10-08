@@ -4,6 +4,8 @@
 
 Hey guys! SublimeZero here. This is an unofficial translation I've created, of an unofficial RPG Maker MZ Javascript reference, written by tonbijp 大串 敏史 and GEMINIGAMEDEV いっかくじぇみに
 
+Enjoy!
+
 ---
 
 Games created with the casual game development environment "RPG Maker MZ" developed by Gotcha Gotcha Games run on JavaScript.
