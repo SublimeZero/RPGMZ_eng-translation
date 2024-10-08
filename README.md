@@ -6,6 +6,8 @@ Hey guys! SublimeZero here. This is an unofficial translation I've created, of a
 
 Enjoy!
 
+(Link to the original repository: https://github.com/tonbijp/RPGMakerMZ/tree/master)
+
 ---
 
 Games created with the casual game development environment "RPG Maker MZ" developed by Gotcha Gotcha Games run on JavaScript.
