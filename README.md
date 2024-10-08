@@ -1,5 +1,11 @@
 # RPG Maker MZ Unofficial JavaScript Reference
 
+---
+
+Hey guys! SublimeZero here. This is an unofficial translation I've created, of an unofficial RPG Maker MZ Javascript reference, written by tonbijp 大串 敏史 and GEMINIGAMEDEV いっかくじぇみに
+
+---
+
 Games created with the casual game development environment "RPG Maker MZ" developed by Gotcha Gotcha Games run on JavaScript.
 
 This is an unofficial reference for the JavaScript that powers those games. I, "Tonbi@[Tobi Island Workshop](http://tonbi.jp/)", have created and shared this personally.
