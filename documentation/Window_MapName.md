@@ -31,7 +31,7 @@ In MV, there were no arguments.
 
 # Inheritance Tree
 
-- [**Window_ItemList**]
+- [**Window_MapName**]
   - [Window_Base](Window_Base.md)
     - [Window](Window.md)
       - [PIXI.Container](PIXI.Container.md)
